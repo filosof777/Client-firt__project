@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container{
+  width: 1310px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--color-232536);
+}
+
+.text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-5d5f6d);
+}
+
+:root {
+  --color-232536: #232536;
+  --color-ffffff: #ffffff;
+  --color-ffd3af: #ffd3af; 
+  --color-ffa155: #ffa155;
+  --color-444cfc: #444cfc;
+  --color-5d5f6d: #5d5f6d;
+  --color-000000: #000000;
+  --color-ecf8f9: #ecf8f9;
+  --color-ffe6d2: #ffe6d2;
+  --color-f9f9ff: #f9f9ff;
+  --color-666dff: #666dff;
+  --color-fafafc: #fafafc;
+  --color-ffe0c7: #ffe0c7;
+  --color-ffdfc6: #ffdfc6; 
+  --color-f9f9f9: #f9f9f9;
+  --color-rgba057: rgba(255, 211, 175, 0.57);
+  --color-rgba099: rgba(35, 37, 54, 0.99);
+  --color-rgba017: rgba(210, 218, 237, 0.17);
+}
