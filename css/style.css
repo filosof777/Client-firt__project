@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-html {
-  box-sizing: border-box;
-}
+html {box-sizing: border-box;}
 
 *,
 *::before,
-*::after {
-  box-sizing: inherit;
-}
+*::after {box-sizing: inherit;}
 
 body {
   margin: 0;
@@ -35,9 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-button {
-  cursor: pointer;
-}
+button {cursor: pointer;}
 
 .container{
   width: 1310px;
@@ -59,6 +53,45 @@ button {
   color: var(--color-5d5f6d);
 }
 
+.btn {
+  background-color: var(--color-444cfc);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-rgba087);
+  padding: 20px 68px 20px 32px;
+  position: relative;
+}
+
+.btn:hover {
+  background-color: var(--color-000dff);
+  color: var(--color-ffffff);
+}
+
+.btn:active {opacity: 0.5;}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-image: url('../media/img/btn/btn-img.svg');
+  top: 0;
+  left: 0;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  width: 20px;
+  height: 10px;
+  background-image: url('../media/img/btn/arrow.svg');
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+}
+
 :root {
   --color-232536: #232536;
   --color-ffffff: #ffffff;
@@ -75,7 +108,9 @@ button {
   --color-ffe0c7: #ffe0c7;
   --color-ffdfc6: #ffdfc6; 
   --color-f9f9f9: #f9f9f9;
+  --color-000dff: #000dff;
   --color-rgba057: rgba(255, 211, 175, 0.57);
   --color-rgba099: rgba(35, 37, 54, 0.99);
   --color-rgba017: rgba(210, 218, 237, 0.17);
+  --color-rgba087: rgba(255, 255, 255, 0.87);
 }
