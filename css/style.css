@@ -472,6 +472,11 @@ button {cursor: pointer;}
   color: var(--color-232536);
 }
 
+.hero-blog .hero-blog__people-name{
+  padding-left: 44px;
+  padding-right: 16px;
+}
+
 .hero-blog__content-date{
   font-style: normal;
   font-weight: 500;
