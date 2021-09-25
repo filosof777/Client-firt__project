@@ -1043,10 +1043,10 @@ button {cursor: pointer;}
 /* Hero===========================*/
 /* Blog page======================*/
 /* Customers page=================*/
-
 .customers {
   padding-bottom: 110px;
 }
+
 .customers__title {
   margin-bottom: 64px;
 }
@@ -1059,6 +1059,11 @@ button {cursor: pointer;}
 }
 .customers__content {
   background:var(--color-f9f9ff);
+  color: var(--color-232536);
+}
+
+.customers__content-link {
+  color: var(--color-232536);
 }
 
 .design-product__box{
@@ -1069,29 +1074,33 @@ button {cursor: pointer;}
   width: 264px;
   margin-bottom: 34px;
 }
+
 .customers__content .hero-blog__people--img{
   margin: 0;
 }
 /* Customers =======================*/
 /* =================================*/
 /* All-posts =======================*/
-
 .all-posts {
   padding: 96px 0;
   background: var(--color-f9f9f9);
 }
+
 .all-posts__title {
   margin-bottom: 64px;
 }
+
 .all-posts__contents {
   display: grid;
   grid-template-columns: repeat(3,405px);
   grid-template-rows: repeat(2,592px);
   grid-gap: 32px;
 }
+
 .all-posts__content {
   background: var(--color-ffffff);
 }
+
 .clients__title {
   width: 341px;
   font-style: normal;
@@ -1101,10 +1110,12 @@ button {cursor: pointer;}
   color: var(--color-232536);
   margin-bottom: 16px;
 }
+
 .clients__desc {
   width: 341px;
   margin-bottom: 24px;
 }
+
 .clients__contetn-box{
   width: 341px;
   margin: 0 auto;
@@ -1241,9 +1252,11 @@ button {cursor: pointer;}
   color: var(--color-5d5fef);
 }
 
-.branchs__link:hover {color: var(--color-000dff);}
+.branchs__link:hover,
+.hero-blog__link:hover {color: var(--color-000dff);}
 
-.branchs__link:active {opacity: 0.5;}
+.branchs__link:active,
+.hero-blog__link:active {opacity: 0.5;}
 
 .empty{margin-bottom: 52px;}
 
@@ -1331,7 +1344,7 @@ button {cursor: pointer;}
 /* team hero ================== */
 .team-hero-sec {
   padding: 96px 0;
-  background-color: var(--color-e5e5e5);
+  background-color: var(--color-ffffff);
 }
 
 .team-hero {
