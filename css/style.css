@@ -1527,11 +1527,13 @@ button {cursor: pointer;}
 
 .branchs__link:hover,
 .hero-blog__link:hover,
-.service-item__link:hover {color: var(--color-000dff);}
+.service-item__link:hover,
+.team-blog__link:hover {color: var(--color-000dff);}
 
 .branchs__link:active,
 .hero-blog__link:active,
-.service-item__link:active {opacity: 0.5;}
+.service-item__link:active,
+.team-blog__link:active {opacity: 0.5;}
 
 .empty{margin-bottom: 52px;}
 
