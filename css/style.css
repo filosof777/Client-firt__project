@@ -934,8 +934,23 @@ button {cursor: pointer;}
 }
 
 .hero-blog__people-name {
+  font-style: normal ;
+  font-weight: normal ;
+  color: var(--color-232536);
+}
+
+.hero-blog .hero-blog__people-name{
   padding-left: 44px;
   padding-right: 16px;
+}
+
+.hero-blog__content-date{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-232536);
+  opacity: 0.6;
 }
 
 .hero-blog__date {
@@ -1024,6 +1039,43 @@ button {cursor: pointer;}
 }
 
 .hero-blog__content .hero-blog__people-name{padding: 0 !important;}
+
+
+/* Hero===========================*/
+
+/* Blog page======================*/
+
+/* Customers page======================*/
+
+.customers {
+  padding-bottom: 110px;
+}
+.customers__title {
+  margin-bottom: 64px;
+}
+
+.design-products {
+  display: grid;
+  grid-template-columns: repeat(2,624px);
+  grid-template-rows: repeat(2,248px);
+  grid-gap: 32px;
+}
+.customers__content {
+  background:var(--color-f9f9ff);
+}
+
+.design-product__box{
+  margin-left: 32px;
+}
+
+.design-products__title {
+  width: 264px;
+  margin-bottom: 34px;
+}
+.customers__content .hero-blog__people--img{
+  margin: 0;
+}
+/* Customers page==============*/
 /* Blog page===================*/
 /* ============================*/
 
@@ -1240,3 +1292,4 @@ button {cursor: pointer;}
 /* Culture===================== */
 /* Career Page================= */
 /* ============================ */
+
