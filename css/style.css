@@ -1276,6 +1276,14 @@ button {cursor: pointer;}
   margin: 8px 0;
 }
 
+.service-header__link:hover {
+  color: var(--color-ffa155);
+}
+
+.service-header__link:active {
+  opacity: 0.5;
+}
+
 .right-arow::after {
   content: '';
   background-image: url("../media/img/service/right-arrow.svg");
