@@ -1692,7 +1692,8 @@ button {cursor: pointer;}
   line-height: 20px;
   color: var(--color-232536);
   opacity: 0.6;
-  margin-bottom: 12px;
+  display: inline-block;
+  margin-bottom: 8px;
 }
 
 .team-blog__subtitle {
