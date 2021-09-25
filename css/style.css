@@ -805,7 +805,116 @@ button {cursor: pointer;}
 /* service process ======================== */
 /* ======================================== */
 
+/* ======================================== */
+/* team hero =============================== */
 
+.team-hero-sec {
+  padding: 96px 0;
+  background-color: var(--color-e5e5e5);
+}
+
+.team-hero {
+  width: 505px;
+  margin: 0 auto;
+}
+
+.team-hero__title {
+  font-size: 36px;
+  margin-top: 48px;
+}
+
+.team-hero__pretext {
+  margin-top: 8px;
+}
+
+.pretext {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-232536);
+  opacity: 0.7;
+}
+
+.team-hero__text {
+  margin-top: 24px;
+}
+
+.team-hero__list {
+  margin-top: 32px;
+}
+
+.team-hero__item {
+  margin: 0 14px;
+}
+
+.team-hero__link {
+  font-size: 20px;
+  color: var(--color-232536);
+  transition: color 0.4s ease;
+}
+
+.team-hero__link:hover {
+  color: var(--color-444cfc);
+}
+
+/* team hero =============================== */
+/* ======================================== */
+
+/* ======================================== */
+/* team blog =============================== */
+
+.team-blog {
+  padding: 96px 0;
+  background-color: var(--color-ecf8f9);
+}
+
+.team-blog__title {
+  margin: 19px 0 48px 0;
+}
+
+.team-blog__des {
+  width: 328px;
+  height: 248px;
+  padding: 32px;
+  background-color: var(--color-ffffff);
+}
+
+.team-blog__pretext {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-232536);
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
+
+.team-blog__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-232536);
+  margin-bottom: 20px;
+}
+
+.team-blog__link {
+  color: var(--color-444cfc);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.team-blog__link::after {
+  content: '';
+  background-image: url("../media/img/team/right-arrow.svg");
+  width: 20px;
+  height: 10px;
+  margin-left: 12px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+/* team blog =============================== */
+/* ======================================== */
 
 
 
