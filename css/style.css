@@ -1442,5 +1442,18 @@ button {cursor: pointer;}
   list-style: none;
   margin: 0;
 }
+.blog-inner__content-item:nth-child(6){
+  position: relative;
+}
+.blog-inner__content-item:nth-child(6)::after{
+  content: "";
+  position:absolute;
+  transform: translate(5px,2px);
+  width: 24px;
+  height: 24px;
+  background-image: url("../media/img/blog-inner/hero/sticker.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+}
 
 /* Blog-inner===================== */
