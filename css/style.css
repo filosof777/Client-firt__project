@@ -138,6 +138,7 @@ button {cursor: pointer;}
   --color-dadadd: #dadadd;
   --color-fff8f1: #fff8f1;
   --color-e5e5e5: #e5e5e5;
+  --color-5d5fef: #5d5fef;
   --color-rgba17: rgba(255, 211, 175, 0.17);
   --color-rgba006: rgba(255, 255, 255, 0.06);
   --color-rgba057: rgba(255, 211, 175, 0.57);
@@ -1023,4 +1024,219 @@ button {cursor: pointer;}
 }
 
 .hero-blog__content .hero-blog__people-name{padding: 0 !important;}
+/* Blog page===================*/
+/* ============================*/
 
+/* Career Page=================*/
+/* Career======================*/
+#career{
+  padding: 96px 0;
+  background-color: var(--color-ffffff);
+  position: relative;
+}
+
+.career__box{position: relative;}
+
+.career__box::before{
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 52px;
+  background-image: url('../media/img/career/Shapes.svg');
+  top: 0;
+  right: 0;
+}
+
+.career__header{
+  width: 625px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.career__subject{
+  text-align: center;
+  margin-bottom: 16px;
+}
+.career__subtitle{
+  width: 624px;
+  text-align: center;
+  opacity: 0.87;
+  margin-bottom: 60px;
+}
+
+.career__title{
+  width: 624px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.career__text{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color:var(--color-232536);
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.career__text::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url("../media/img/career/hand.png");
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.career__word {
+  width: 1100px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url('../media/img/career/text-img.png');
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+/* Career====================== */
+/* ============================ */
+/* Branch====================== */
+#branchs{
+  padding-bottom: 96px;
+  background-color: var(--color-ffffff);
+}
+
+.branchs__box{
+  width: 1280px;
+  padding: 78px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(3,354px);
+  grid-template-rows: repeat(3,243px);
+  grid-gap:32px; 
+  background-color: var(--color-ecf8f9);
+}
+
+.branchs__card{
+  padding: 48px 0 0 48px;
+  position: relative;
+  background-color: var(--color-ffffff);
+}
+.branchs__card::before{
+  content: "";
+  width: 20px;
+  height: 8px;
+  background-image: url("../media/img/career/arrow.svg");
+  position: absolute;
+  left: 150px;
+  bottom: 43px;
+}
+.branchs__title{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color:var(--color-232536);
+  margin-bottom: 10px;
+}
+
+.branchs__subtitle{
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--color-232536);
+  opacity: 0.6;
+}
+
+.branchs__link {
+  margin-right: 12px;
+  color: var(--color-5d5fef);
+}
+
+.branchs__link:hover {color: var(--color-000dff);}
+
+.branchs__link:active {opacity: 0.5;}
+
+.empty{margin-bottom: 52px;}
+
+/* Branch====================== */
+/* ============================ */
+/* Culture===================== */
+#culture{
+  padding: 96px 0;
+  background-color: var(--color-e5e5e5);
+}
+
+.culture__header{width: 624px;}
+
+.culture__subject{margin-bottom: 16px;}
+
+.culrure__title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--color-000000);
+  margin-bottom: 24px;
+}
+
+.culture__subtitle{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  margin-bottom: 64px;
+}
+
+.culture__box{
+  width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(3,416px);
+  grid-template-rows: repeat(2,188px);
+  grid-gap:12px;
+}
+
+.card{
+  padding: 80px 32px 30px 32px;
+  position: relative;
+  background-color: var(--color-ffffff);
+}
+
+.card::before{
+  content:"";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.covid::before{background-image: url('../media/img/career/CultureIcon.svg');}
+
+.time::before{background-image: url('../media/img/career/CultureIcon1.svg');}
+
+.home::before{background-image: url('../media/img/career/CultureIcon2.svg');}
+
+.holiday::before{background-image: url('../media/img/career/CultureIcon3.svg');}
+
+.many::before{background-image: url('../media/img/career/CultureIcon4.svg');}
+
+.gym::before{background-image: url('../media/img/career/CultureIcon5.svg');}
+
+.card__title{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color:var(--color-232536);
+  margin-bottom: 8px;
+}
+
+.card__subtitle{
+  font-size: 14px;
+  line-height: 24px;
+  color:var(--color-232536);
+  opacity: 0.6;
+}
+/* Culture===================== */
+/* Career Page================= */
+/* ============================ */
