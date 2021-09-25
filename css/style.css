@@ -1075,7 +1075,44 @@ button {cursor: pointer;}
 .customers__content .hero-blog__people--img{
   margin: 0;
 }
-/* Customers page==============*/
+/* Customers =======================*/
+/* All-posts =======================*/
+
+.all-posts {
+  padding: 96px 0;
+  background: var(--color-f9f9f9);
+}
+.all-posts__title {
+  margin-bottom: 64px;
+}
+.all-posts__contents {
+  display: grid;
+  grid-template-columns: repeat(3,405px);
+  grid-template-rows: repeat(2,592px);
+  grid-gap: 32px;
+}
+.all-posts__content {
+  background: var(--color-ffffff);
+}
+.clients__title {
+  width: 341px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-232536);
+  margin-bottom: 16px;
+}
+.clients__desc {
+  width: 341px;
+  margin-bottom: 24px;
+}
+.clients__contetn-box{
+  width: 341px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+/* Customers ==================*/
 /* Blog page===================*/
 /* ============================*/
 
@@ -1292,4 +1329,3 @@ button {cursor: pointer;}
 /* Culture===================== */
 /* Career Page================= */
 /* ============================ */
-
