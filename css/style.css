@@ -1329,3 +1329,118 @@ button {cursor: pointer;}
 /* Culture===================== */
 /* Career Page================= */
 /* ============================ */
+
+/* Blog-inner===================== */
+
+.blog-inner__hero{
+  padding-top: 96px;
+  padding-bottom: 113px;
+}
+.blog-inner__desc-box{  
+  position: relative;
+  background-image: url("../media/img/blog-inner/hero/cubik.svg");
+  background-repeat: no-repeat;
+  background-position:right top;
+}
+.blog-inner__title {
+  width: 729px;
+  padding-top: 48px;
+  margin-bottom: 24px;
+}
+.blog-inner__title::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-ffd3af);
+}
+.blog-inner__desc {
+  width: 719px;
+  margin-bottom: 32px;
+}
+.blog-inner__people-box {
+  position: relative;
+  width: 430px;
+  margin-bottom: 96px;
+}
+.blog-inner__people-box::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url("../media/img/blog/hero/andrew-jonson.png");
+  background-repeat: no-repeat;
+}
+.people-box__people-name {
+  padding-left: 44px;
+  padding-right: 16px;
+}
+.people-box__date {
+  padding-left: 16px;
+  color: var(--color-232536);
+  opacity: 0.6;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.blog-inner__img-box{
+  width: 1280px;
+  height: 369px;
+  position: relative;
+  margin-bottom: 96px;
+}
+.blog-inner__img-line{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(0,100%);
+  display: inline-block;
+  width: 346px;
+  height: 17px;
+  background:var(--color-ffd3af);
+}
+.blog-inner__img-line::before{
+  content: "";
+  display: inline-block;
+  width: 82px;
+  height: 17px;
+  background: var(--color-ffa155);
+}
+.blog-inner__img-line::after{
+  content: "";
+  display: inline-block;
+  transform: translate(214px,0);
+  width: 50px;
+  height: 17px;
+  background: var(--color-444cfc);
+}
+.blog-inner__content-box {
+  width: 842px;
+  margin: 0 auto;
+}
+.blog-inner__content-title {
+  width: 842px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color:var(--color-232536);
+  margin-bottom: 24px;
+}
+.blog-inner__content-title--small{
+  font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.blog-inner__content-desc {
+  width: 836px;
+  margin-bottom: 24px;
+}
+.blog-inner__content-list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+/* Blog-inner===================== */
