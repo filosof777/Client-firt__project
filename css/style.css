@@ -819,7 +819,7 @@ button {cursor: pointer;}
   background-color: var(--color-ecf8f9);
 }
 /* service process ==================== */
-/* ==================================== *
+/* ==================================== */
 .service-info__item:nth-child(4) {
   background-color: var(--color-f9f9ff);
 }
