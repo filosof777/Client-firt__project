@@ -17,7 +17,7 @@ body {
   font-weight: 400;
 }
 
-ul {
+ul, ol {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -139,6 +139,7 @@ button {cursor: pointer;}
   --color-fff8f1: #fff8f1;
   --color-e5e5e5: #e5e5e5;
   --color-5d5fef: #5d5fef;
+  --color-rgba01: rgba(255, 161, 85, 0.1);
   --color-rgba17: rgba(255, 211, 175, 0.17);
   --color-rgba006: rgba(255, 255, 255, 0.06);
   --color-rgba057: rgba(255, 211, 175, 0.57);
@@ -650,10 +651,101 @@ button {cursor: pointer;}
 /* Expertise=====================*/
 /* ==============================*/
 /* Home/Service==================*/
+.home-service {
+  background-color: var(--color-ffe6d2);
 
+}
 
+.home-service__inner {
+  padding: 96px 0;
+}
 
+.home-service__content {
+  max-width: 770px;
+  margin-bottom: 80px;
+}
 
+.home-service__pre-title {
+  margin-bottom: 12px;
+}
+
+.home-service__title {
+  margin-bottom: 40px;
+}
+
+.heme-service__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heme-service__item {
+  max-width: 405px;
+  padding: 111px 31px 44px 48px;
+  background-color: var(--color-ffffff);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.heme-service__item:hover {
+  box-shadow: 0px 60px 68px -30px rgba(255, 161, 85, 0.35);
+}
+
+.heme-service__item::before {
+  content: '';
+  position: absolute;
+  top: 48px;
+  left: 48px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: var(--color-rgba01 );
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.heme-service__item:nth-child(1):before{
+  background-image: url('../media/img/home/home-service/technical.svg');
+}
+
+.heme-service__item:nth-child(2):before{
+  background-image: url('../media/img/home/home-service/testing.svg');
+
+}
+.heme-service__item:nth-child(3):before{
+  background-image: url('../media/img/home/home-service/web-development.svg');
+}
+
+.service-item__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--color-000000);
+  margin-bottom: 8px;
+}
+
+.service-item__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-5d5f6d);
+  margin-bottom: 24px;
+}
+
+.service-item__link {
+  position: relative;
+  color: var(--color-444cfc);
+}
+
+.service-item__link::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 10px;
+  background-image: url('../media/img/home/home-service/arrow.svg');
+  background-repeat: no-repeat;
+  top: 5px;
+  right: -36px;
+}
 /* Home/Service==================*/
 /* ==============================*/
 
@@ -1263,10 +1355,12 @@ button {cursor: pointer;}
 }
 
 .branchs__link:hover,
-.hero-blog__link:hover {color: var(--color-000dff);}
+.hero-blog__link:hover,
+.service-item__link:hover {color: var(--color-000dff);}
 
 .branchs__link:active,
-.hero-blog__link:active {opacity: 0.5;}
+.hero-blog__link:active,
+.service-item__link:active {opacity: 0.5;}
 
 .empty{margin-bottom: 52px;}
 
