@@ -1935,18 +1935,16 @@ button {cursor: pointer;}
 }
 /* Culture===================== */
 /* Developer=================== */
-
 #developer{
   padding: 96px 0;
   background-color: var(--color-ffffff);
 }
 
 .developer__box{
-  width: 1062px;
+  max-width: 1062px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .developer__header{
@@ -1954,13 +1952,9 @@ button {cursor: pointer;}
   margin: 27px 55px 27px 0;
 }
 
-.developer__subject{
-  margin-bottom: 24px;
-}
+.developer__subject{margin-bottom: 24px;}
 
-.developer__title{
-  margin-bottom: 16px;
-}
+.developer__title{margin-bottom: 16px;}
 
 .developer__subtitle{
   margin-bottom: 40px;
@@ -1997,14 +1991,10 @@ button {cursor: pointer;}
   color: var(--color-000000);
   margin-bottom: 16px;
 }
-
 /* Developer=================== */
 /* ============================ */
 /* Detal======================= */
-
-#detal{
-  padding: 0 0 96px 0;
-}
+#detal{padding: 0 0 96px 0;}
 
 .detal__inner{
   background-color: var(--color-ecf8f9);
@@ -2025,7 +2015,6 @@ button {cursor: pointer;}
 .tab--active {
   position: relative;
   color: var(--color-444cfc) !important;
-
 }
 
 .tab--active::after {
@@ -2058,14 +2047,9 @@ button {cursor: pointer;}
   position: relative;
 }
 
-.tab-content {
-  display: none;
-}
+.tab-content {display: none;}
 
-.tab-content--active {
-  display: block;
-}
-
+.tab-content--active {display: block;}
 /* Detal======================= */
 /* ============================ */
 /* Aplication================== */
